@@ -25,7 +25,7 @@ $(document).ready(function(){
             else{
                 errordiv.style.right= 0;
                 name.style.color = 'red';
-                errordiv.innerHTML="You don't know how to write a phone number you Schwein";
+                errordiv.innerHTML="Incorrect Username";
                 errordiv.style.color = 'red';
         }
     }
@@ -38,7 +38,7 @@ $(document).ready(function(){
             else{
                 errordiv.style.right= 0;
                 image.style.color = 'red';
-                errordiv.innerHTML="You don't know how to write a phone number you Schwein";
+                errordiv.innerHTML="Wrong Image File";
                 errordiv.style.color = 'red';
         }
     }
@@ -51,7 +51,7 @@ $(document).ready(function(){
             else{
                 errordiv.style.right= 0;
                 movie.style.color = 'red';
-                errordiv.innerHTML="You don't know how to write a phone number you Schwein";
+                errordiv.innerHTML="Incorrect Movie Title";
                 errordiv.style.color = 'red';
         }
     }
@@ -65,7 +65,7 @@ $(document).ready(function(){
             else{
                 errordiv.style.right= 0;
                 comment.style.color = 'red';
-                errordiv.innerHTML="You don't know how to write a phone number you Schwein";
+                errordiv.innerHTML="Incorrect Comment";
                 errordiv.style.color = 'red';
         }
     }
