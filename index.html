@@ -1,0 +1,65 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Assignment 3
+        </title>
+        <style>
+            
+            #display{
+                width: 100vw;
+                height: 10vh;
+            }
+            .inputs{
+                width: 15vw;
+                height: 4vh;
+                margin-right: 8vw;
+
+            }
+            #submit{
+                width: 6vw;
+                height: 5vh;
+                font-size: 3vh;
+            }
+            #errordiv{
+                position: relative;
+                right: 0;
+            }
+            #comment{
+                width: 75vw;
+                height: 4vh;
+                margin: auto;
+            }
+            #body{
+                background-image: url(http://www.wildtextures.com/wp-content/uploads/wildtextures-seamless-wood-planks-II.jpg);
+                background-repeat: repeat;
+                background-size: cover;
+            }
+            
+        </style>
+    </head>
+    <body id=body>
+        <div id=display>
+            <input class= inputs type=text id=name placeholder="enter name">
+            <input class= inputs type=url id=image placeholder="enter image">
+            <input class= inputs type=text id=movie placeholder="enter movie">
+        </div>
+        <div id=second>
+            <input class= inputs type=text id=comment placeholder="enter comment">
+        </div>
+
+        <div id=buttonbar>
+            <button id=submit>Submit</button>
+        </div>
+        <div id=newboxplace>
+        </div>
+        
+        <div id=errordiv>
+        </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+    </script>
+    <script src='myjs.js'>
+    </script>
+    </body>
+</html>
